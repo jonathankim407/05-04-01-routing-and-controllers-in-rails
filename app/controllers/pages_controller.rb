@@ -1,15 +1,15 @@
 class PagesController < ApplicationController
 
   def welcome
-    render :welcome
+    @header = "This is the WELCOME page"
   end
 
   def about
-    render :about
+    @header = "This is the ABOUT page"
   end
 
   def contest
-    render :contest
+    @header = "This is the CONTEST page"
   end
 
 end
